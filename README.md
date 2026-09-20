@@ -112,7 +112,7 @@ BigQuery SQL · Python (Colab) · Power BI
 │   ├── 02_monetization_metrics.sql
 │   └── 03_segmentation.sql
 ├── notebooks/
-│   └── monetization_analysis.ipynb
+│   └── monetization_analystic.ipynb
 ├── dashboard/
 │   └── monetization_segmentation.pbix
 └── screenshots/
@@ -125,4 +125,4 @@ BigQuery SQL · Python (Colab) · Power BI
 1. Download `ab_test.csv` from the Kaggle link above
 2. Load it into BigQuery as `ab_test`
 3. Run `sql/01` through `sql/03` in order
-4. Open `notebooks/monetization_analysis.ipynb` for the same analysis in Pandas
+4. Open `monetization_analystic.ipynb` for the same analysis in Pandas
