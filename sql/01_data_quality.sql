@@ -16,8 +16,8 @@ SELECT
     user_id,
     revenue,
     CASE testgroup
-        WHEN 'a' THEN 'control'
-        WHEN 'b' THEN 'test'    
+        WHEN 'a' THEN 'offer a'
+        WHEN 'b' THEN 'offer b'    
     END AS testgroup
 FROM `project-2-507310.game_analystics.ab_test`;
 
