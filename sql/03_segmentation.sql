@@ -8,8 +8,8 @@ SELECT
     revenue,
     CASE
         WHEN revenue = 0 THEN 'non_payer'
-        WHEN testgroup = 'control' AND revenue <=  393.3 THEN 'payer'
-        WHEN testgroup = 'test' AND revenue <= 3795.8 THEN 'payer'
+        WHEN testgroup = 'offer a' AND revenue <=  393.3 THEN 'payer'
+        WHEN testgroup = 'offer b' AND revenue <= 3795.8 THEN 'payer'
         ELSE 'top_10pct_payer'
     END AS segment
 FROM `project-2-507310.game_analystics.ab_test_labeled`;
